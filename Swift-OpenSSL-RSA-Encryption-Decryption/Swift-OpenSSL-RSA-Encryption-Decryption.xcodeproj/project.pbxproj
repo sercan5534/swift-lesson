@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74C4FE7956D3A9C8B71FA0DA /* Pods_Swift_OpenSSL_RSA_Encryption_Decryption.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1052A7DA96F16414C00BC70 /* Pods_Swift_OpenSSL_RSA_Encryption_Decryption.framework */; };
+		CD681A1C1DB004230082BFEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD681A1B1DB004230082BFEE /* AppDelegate.swift */; };
+		CD681A1E1DB004230082BFEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD681A1D1DB004230082BFEE /* ViewController.swift */; };
+		CD681A211DB004230082BFEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD681A1F1DB004230082BFEE /* Main.storyboard */; };
+		CD681A231DB004230082BFEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD681A221DB004230082BFEE /* Assets.xcassets */; };
+		CD681A261DB004230082BFEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD681A241DB004230082BFEE /* LaunchScreen.storyboard */; };
+		CD681A2E1DB0057A0082BFEE /* RSALib.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD681A2D1DB0057A0082BFEE /* RSALib.swift */; };
+		CD681A301DB00BC60082BFEE /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD681A2F1DB00BC60082BFEE /* StringExt.swift */; };
+		CD681A321DB00D3E0082BFEE /* NSDataExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD681A311DB00D3E0082BFEE /* NSDataExt.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		99FC7B71DA9E5820358DB872 /* Pods-Swift-OpenSSL-RSA-Encryption-Decryption.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-OpenSSL-RSA-Encryption-Decryption.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift-OpenSSL-RSA-Encryption-Decryption/Pods-Swift-OpenSSL-RSA-Encryption-Decryption.release.xcconfig"; sourceTree = "<group>"; };
+		CD681A181DB004230082BFEE /* Swift-OpenSSL-RSA-Encryption-Decryption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-OpenSSL-RSA-Encryption-Decryption.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD681A1B1DB004230082BFEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD681A1D1DB004230082BFEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD681A201DB004230082BFEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD681A221DB004230082BFEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD681A251DB004230082BFEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD681A271DB004230082BFEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD681A2D1DB0057A0082BFEE /* RSALib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSALib.swift; sourceTree = "<group>"; };
+		CD681A2F1DB00BC60082BFEE /* StringExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
+		CD681A311DB00D3E0082BFEE /* NSDataExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDataExt.swift; sourceTree = "<group>"; };
+		D1052A7DA96F16414C00BC70 /* Pods_Swift_OpenSSL_RSA_Encryption_Decryption.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_OpenSSL_RSA_Encryption_Decryption.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E07DDFA4A294E4C4C49F4CEA /* Pods-Swift-OpenSSL-RSA-Encryption-Decryption.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-OpenSSL-RSA-Encryption-Decryption.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift-OpenSSL-RSA-Encryption-Decryption/Pods-Swift-OpenSSL-RSA-Encryption-Decryption.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD681A151DB004230082BFEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C4FE7956D3A9C8B71FA0DA /* Pods_Swift_OpenSSL_RSA_Encryption_Decryption.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		611217947B56AD2115D88170 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E07DDFA4A294E4C4C49F4CEA /* Pods-Swift-OpenSSL-RSA-Encryption-Decryption.debug.xcconfig */,
+				99FC7B71DA9E5820358DB872 /* Pods-Swift-OpenSSL-RSA-Encryption-Decryption.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		69B80E0CD124A01C2E5D086D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1052A7DA96F16414C00BC70 /* Pods_Swift_OpenSSL_RSA_Encryption_Decryption.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD681A0F1DB004230082BFEE = {
+			isa = PBXGroup;
+			children = (
+				CD681A1A1DB004230082BFEE /* Swift-OpenSSL-RSA-Encryption-Decryption */,
+				CD681A191DB004230082BFEE /* Products */,
+				611217947B56AD2115D88170 /* Pods */,
+				69B80E0CD124A01C2E5D086D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD681A191DB004230082BFEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD681A181DB004230082BFEE /* Swift-OpenSSL-RSA-Encryption-Decryption.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD681A1A1DB004230082BFEE /* Swift-OpenSSL-RSA-Encryption-Decryption */ = {
+			isa = PBXGroup;
+			children = (
+				CD681A1B1DB004230082BFEE /* AppDelegate.swift */,
+				CD681A1D1DB004230082BFEE /* ViewController.swift */,
+				CD681A1F1DB004230082BFEE /* Main.storyboard */,
+				CD681A221DB004230082BFEE /* Assets.xcassets */,
+				CD681A241DB004230082BFEE /* LaunchScreen.storyboard */,
+				CD681A271DB004230082BFEE /* Info.plist */,
+				CD681A2D1DB0057A0082BFEE /* RSALib.swift */,
+				CD681A2F1DB00BC60082BFEE /* StringExt.swift */,
+				CD681A311DB00D3E0082BFEE /* NSDataExt.swift */,
+			);
+			path = "Swift-OpenSSL-RSA-Encryption-Decryption";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD681A171DB004230082BFEE /* Swift-OpenSSL-RSA-Encryption-Decryption */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD681A2A1DB004230082BFEE /* Build configuration list for PBXNativeTarget "Swift-OpenSSL-RSA-Encryption-Decryption" */;
+			buildPhases = (
+				9935E5DF73E03405F9936FF2 /* [CP] Check Pods Manifest.lock */,
+				CD681A141DB004230082BFEE /* Sources */,
+				CD681A151DB004230082BFEE /* Frameworks */,
+				CD681A161DB004230082BFEE /* Resources */,
+				7BD1DC47D58A971700C63804 /* [CP] Embed Pods Frameworks */,
+				4A2AA548BBA8783DB3226BEE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift-OpenSSL-RSA-Encryption-Decryption";
+			productName = "Swift-OpenSSL-RSA-Encryption-Decryption";
+			productReference = CD681A181DB004230082BFEE /* Swift-OpenSSL-RSA-Encryption-Decryption.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD681A101DB004230082BFEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Gio;
+				TargetAttributes = {
+					CD681A171DB004230082BFEE = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = CD681A131DB004230082BFEE /* Build configuration list for PBXProject "Swift-OpenSSL-RSA-Encryption-Decryption" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD681A0F1DB004230082BFEE;
+			productRefGroup = CD681A191DB004230082BFEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD681A171DB004230082BFEE /* Swift-OpenSSL-RSA-Encryption-Decryption */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD681A161DB004230082BFEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD681A261DB004230082BFEE /* LaunchScreen.storyboard in Resources */,
+				CD681A231DB004230082BFEE /* Assets.xcassets in Resources */,
+				CD681A211DB004230082BFEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A2AA548BBA8783DB3226BEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift-OpenSSL-RSA-Encryption-Decryption/Pods-Swift-OpenSSL-RSA-Encryption-Decryption-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BD1DC47D58A971700C63804 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift-OpenSSL-RSA-Encryption-Decryption/Pods-Swift-OpenSSL-RSA-Encryption-Decryption-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9935E5DF73E03405F9936FF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD681A141DB004230082BFEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD681A1E1DB004230082BFEE /* ViewController.swift in Sources */,
+				CD681A1C1DB004230082BFEE /* AppDelegate.swift in Sources */,
+				CD681A301DB00BC60082BFEE /* StringExt.swift in Sources */,
+				CD681A2E1DB0057A0082BFEE /* RSALib.swift in Sources */,
+				CD681A321DB00D3E0082BFEE /* NSDataExt.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD681A1F1DB004230082BFEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD681A201DB004230082BFEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD681A241DB004230082BFEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD681A251DB004230082BFEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD681A281DB004230082BFEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD681A291DB004230082BFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD681A2B1DB004230082BFEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E07DDFA4A294E4C4C49F4CEA /* Pods-Swift-OpenSSL-RSA-Encryption-Decryption.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift-OpenSSL-RSA-Encryption-Decryption/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gio.Swift-OpenSSL-RSA-Encryption-Decryption";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD681A2C1DB004230082BFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99FC7B71DA9E5820358DB872 /* Pods-Swift-OpenSSL-RSA-Encryption-Decryption.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift-OpenSSL-RSA-Encryption-Decryption/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gio.Swift-OpenSSL-RSA-Encryption-Decryption";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD681A131DB004230082BFEE /* Build configuration list for PBXProject "Swift-OpenSSL-RSA-Encryption-Decryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD681A281DB004230082BFEE /* Debug */,
+				CD681A291DB004230082BFEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD681A2A1DB004230082BFEE /* Build configuration list for PBXNativeTarget "Swift-OpenSSL-RSA-Encryption-Decryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD681A2B1DB004230082BFEE /* Debug */,
+				CD681A2C1DB004230082BFEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD681A101DB004230082BFEE /* Project object */;
+}
